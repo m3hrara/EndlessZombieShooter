@@ -541,3 +541,365 @@ Received Import Request.
 Start importing Assets/Character/OtherAnimations/jump backward.fbx using Guid(c651f83a54fc43342a3b0f09183ce245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f976f21fe5fd72fa90428756ad9eb4c') in 0.059322 seconds 
   Import took 0.068601 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 336.444849 seconds.
+  path: Assets/Character/OtherAnimations/firing rifle.fbx
+  artifactKey: Guid(b3c6a7e3945d6a241b7d2a2e0d20886c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/firing rifle.fbx using Guid(b3c6a7e3945d6a241b7d2a2e0d20886c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db0dbe9b1ae77f604ac06f7390e3c4d') in 0.041085 seconds 
+  Import took 0.046175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016370 seconds.
+  path: Assets/Character/OtherAnimations/firing rifle.fbx
+  artifactKey: Guid(b3c6a7e3945d6a241b7d2a2e0d20886c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/firing rifle.fbx using Guid(b3c6a7e3945d6a241b7d2a2e0d20886c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db0dbe9b1ae77f604ac06f7390e3c4d') in 0.051439 seconds 
+  Import took 0.056760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.111314 seconds.
+  path: Assets/Character/OtherAnimations/firing rifle.fbx
+  artifactKey: Guid(b3c6a7e3945d6a241b7d2a2e0d20886c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/firing rifle.fbx using Guid(b3c6a7e3945d6a241b7d2a2e0d20886c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2d70982319684d163149b927df6fc9') in 0.051605 seconds 
+  Import took 0.058395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.661933 seconds.
+  path: Assets/Character/OtherAnimations/jump backward.fbx
+  artifactKey: Guid(c651f83a54fc43342a3b0f09183ce245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/jump backward.fbx using Guid(c651f83a54fc43342a3b0f09183ce245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d9cf6512c8edf2ecd265b6b995aab0') in 0.049314 seconds 
+  Import took 0.058922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001740 seconds.
+  path: Assets/Character/OtherAnimations/start walking.fbx
+  artifactKey: Guid(c701e4a7b8b1a314682bc64190b45158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/start walking.fbx using Guid(c701e4a7b8b1a314682bc64190b45158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4600da2d894bd347f2e8212fdb71a301') in 0.050785 seconds 
+  Import took 0.066827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Character/OtherAnimations/run backwards.fbx
+  artifactKey: Guid(4eddc6b4e8bbc1c4fb47fb71229871d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/run backwards.fbx using Guid(4eddc6b4e8bbc1c4fb47fb71229871d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09cfd59ea52b0c507b8aa6b46d4276e1') in 0.054333 seconds 
+  Import took 0.062058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Character/OtherAnimations/strafe (2).fbx
+  artifactKey: Guid(1ba7ad3bd3564c94da8c9f604add8510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/strafe (2).fbx using Guid(1ba7ad3bd3564c94da8c9f604add8510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f68ce7b18d39969e676d7a0f73a148') in 0.044816 seconds 
+  Import took 0.049931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Character/OtherAnimations/strafe.fbx
+  artifactKey: Guid(94a2222030e357a4e9da8025dd6ebe98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/strafe.fbx using Guid(94a2222030e357a4e9da8025dd6ebe98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eafbe0ad18e465f99df1fec0c9ef0f9') in 0.049134 seconds 
+  Import took 0.055463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Character/OtherAnimations/stop walking.fbx
+  artifactKey: Guid(4f92cac99d1dd124c895ee012fb0464f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/stop walking.fbx using Guid(4f92cac99d1dd124c895ee012fb0464f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da23269dfc7d27e0854883fd5a90144') in 0.058546 seconds 
+  Import took 0.064418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Character/OtherAnimations/rifle aiming idle.fbx
+  artifactKey: Guid(8b5ee0658c2ae4543ba0a81205e01ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/rifle aiming idle.fbx using Guid(8b5ee0658c2ae4543ba0a81205e01ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ed93b1abd3eb6e33fffd3c3a592afc') in 0.049250 seconds 
+  Import took 0.053743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Character/OtherAnimations/jump forward.fbx
+  artifactKey: Guid(6b0a93a2ca339ba428498df5859f1eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/jump forward.fbx using Guid(6b0a93a2ca339ba428498df5859f1eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca6f3676ffcb291348ef3292c6d65c1') in 0.052550 seconds 
+  Import took 0.059974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Character/OtherAnimations/walk backwards stop.fbx
+  artifactKey: Guid(854dbb2ad1a2e334c8db83f0691f4efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/walk backwards stop.fbx using Guid(854dbb2ad1a2e334c8db83f0691f4efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf15c088d0f93dc38bf8fa8334ee31a') in 0.044462 seconds 
+  Import took 0.050893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000521 seconds.
+  path: Assets/Character/OtherAnimations/walking backwards.fbx
+  artifactKey: Guid(57c7b4f5e169fea499e7bff53cc05166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/walking backwards.fbx using Guid(57c7b4f5e169fea499e7bff53cc05166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4164ee7fdbac1f30720db8a37c98241') in 0.048037 seconds 
+  Import took 0.055598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000898 seconds.
+  path: Assets/Character/OtherAnimations/walking.fbx
+  artifactKey: Guid(ddb2ce0b08c1daa4ab5953fd10867c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/walking.fbx using Guid(ddb2ce0b08c1daa4ab5953fd10867c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43363adc3aa4c3bd04b0def06be83125') in 0.046545 seconds 
+  Import took 0.058129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Character/OtherAnimations/rifle run.fbx
+  artifactKey: Guid(4f821505bd7954b4f99c8e820babe504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/rifle run.fbx using Guid(4f821505bd7954b4f99c8e820babe504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b770f5bb251b1432752e42f7899cf711') in 0.046770 seconds 
+  Import took 0.051170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Character/OtherAnimations/walking to dying.fbx
+  artifactKey: Guid(f1d2037ec570b564c8d2eded4859a84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/walking to dying.fbx using Guid(f1d2037ec570b564c8d2eded4859a84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e77b00287f30ee1c1c363a67ca4ba7') in 0.047144 seconds 
+  Import took 0.054113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002102 seconds.
+  path: Assets/Character/OtherAnimations/start walking backwards.fbx
+  artifactKey: Guid(185bf96741ba4b84cb5507d88ab06618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/start walking backwards.fbx using Guid(185bf96741ba4b84cb5507d88ab06618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2ffbd72d7c62527209826901bb8bcf') in 0.040639 seconds 
+  Import took 0.046971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.976660 seconds.
+  path: Assets/Character/OtherAnimations/jump backward.fbx
+  artifactKey: Guid(c651f83a54fc43342a3b0f09183ce245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/jump backward.fbx using Guid(c651f83a54fc43342a3b0f09183ce245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3663badf2569e836f04ee21beb16796a') in 0.055654 seconds 
+  Import took 0.064251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.145204 seconds.
+  path: Assets/Character/OtherAnimations/jump forward.fbx
+  artifactKey: Guid(6b0a93a2ca339ba428498df5859f1eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/jump forward.fbx using Guid(6b0a93a2ca339ba428498df5859f1eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35de525eff7274d7af1532ede96f91d5') in 0.061870 seconds 
+  Import took 0.068488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.825606 seconds.
+  path: Assets/Character/OtherAnimations/rifle aiming idle.fbx
+  artifactKey: Guid(8b5ee0658c2ae4543ba0a81205e01ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/rifle aiming idle.fbx using Guid(8b5ee0658c2ae4543ba0a81205e01ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78912b6edbaed0221545e87f36a1454d') in 0.088971 seconds 
+  Import took 0.107604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.422421 seconds.
+  path: Assets/Character/OtherAnimations/rifle run.fbx
+  artifactKey: Guid(4f821505bd7954b4f99c8e820babe504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/rifle run.fbx using Guid(4f821505bd7954b4f99c8e820babe504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b9fb561654f2461e8c4d89516c0e86') in 0.061485 seconds 
+  Import took 0.068682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008814 seconds.
+  path: Assets/Character/OtherAnimations/rifle run.fbx
+  artifactKey: Guid(4f821505bd7954b4f99c8e820babe504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/rifle run.fbx using Guid(4f821505bd7954b4f99c8e820babe504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b9fb561654f2461e8c4d89516c0e86') in 0.052208 seconds 
+  Import took 0.057246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.081073 seconds.
+  path: Assets/Character/OtherAnimations/run backwards.fbx
+  artifactKey: Guid(4eddc6b4e8bbc1c4fb47fb71229871d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/run backwards.fbx using Guid(4eddc6b4e8bbc1c4fb47fb71229871d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302a3493044584247ea3bf021fdeed51') in 0.055980 seconds 
+  Import took 0.063538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004755 seconds.
+  path: Assets/Character/OtherAnimations/run backwards.fbx
+  artifactKey: Guid(4eddc6b4e8bbc1c4fb47fb71229871d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/run backwards.fbx using Guid(4eddc6b4e8bbc1c4fb47fb71229871d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302a3493044584247ea3bf021fdeed51') in 0.056818 seconds 
+  Import took 0.064768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.153198 seconds.
+  path: Assets/Character/OtherAnimations/start walking backwards.fbx
+  artifactKey: Guid(185bf96741ba4b84cb5507d88ab06618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/start walking backwards.fbx using Guid(185bf96741ba4b84cb5507d88ab06618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5e54021389ea10231732cccee21d31') in 0.066536 seconds 
+  Import took 0.074811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008852 seconds.
+  path: Assets/Character/OtherAnimations/start walking backwards.fbx
+  artifactKey: Guid(185bf96741ba4b84cb5507d88ab06618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/start walking backwards.fbx using Guid(185bf96741ba4b84cb5507d88ab06618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5e54021389ea10231732cccee21d31') in 0.053707 seconds 
+  Import took 0.066692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.963839 seconds.
+  path: Assets/Character/OtherAnimations/start walking.fbx
+  artifactKey: Guid(c701e4a7b8b1a314682bc64190b45158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/start walking.fbx using Guid(c701e4a7b8b1a314682bc64190b45158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4ca2eb4290020a29c2e263f95f1816') in 0.057185 seconds 
+  Import took 0.071842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.435950 seconds.
+  path: Assets/Character/OtherAnimations/stop walking.fbx
+  artifactKey: Guid(4f92cac99d1dd124c895ee012fb0464f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/stop walking.fbx using Guid(4f92cac99d1dd124c895ee012fb0464f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427c29d2d81838553557cde28bad10e8') in 0.057936 seconds 
+  Import took 0.067403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.602927 seconds.
+  path: Assets/Character/OtherAnimations/strafe (2).fbx
+  artifactKey: Guid(1ba7ad3bd3564c94da8c9f604add8510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/strafe (2).fbx using Guid(1ba7ad3bd3564c94da8c9f604add8510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23d4a823c7c44316a617e68fc5fdd52') in 0.051650 seconds 
+  Import took 0.060623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.072176 seconds.
+  path: Assets/Character/OtherAnimations/strafe.fbx
+  artifactKey: Guid(94a2222030e357a4e9da8025dd6ebe98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/strafe.fbx using Guid(94a2222030e357a4e9da8025dd6ebe98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74df714483946abee84b1bcf8a9e3f4') in 0.055008 seconds 
+  Import took 0.064386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005043 seconds.
+  path: Assets/Character/OtherAnimations/strafe.fbx
+  artifactKey: Guid(94a2222030e357a4e9da8025dd6ebe98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/strafe.fbx using Guid(94a2222030e357a4e9da8025dd6ebe98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74df714483946abee84b1bcf8a9e3f4') in 0.051659 seconds 
+  Import took 0.059064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.609520 seconds.
+  path: Assets/Character/OtherAnimations/walk backwards stop.fbx
+  artifactKey: Guid(854dbb2ad1a2e334c8db83f0691f4efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/walk backwards stop.fbx using Guid(854dbb2ad1a2e334c8db83f0691f4efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7fb1189fa3694b0621f670d24698c9') in 0.054028 seconds 
+  Import took 0.063577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001484 seconds.
+  path: Assets/Character/OtherAnimations/walk backwards stop.fbx
+  artifactKey: Guid(854dbb2ad1a2e334c8db83f0691f4efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/walk backwards stop.fbx using Guid(854dbb2ad1a2e334c8db83f0691f4efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7fb1189fa3694b0621f670d24698c9') in 0.055462 seconds 
+  Import took 0.062548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.281093 seconds.
+  path: Assets/Character/OtherAnimations/walking backwards.fbx
+  artifactKey: Guid(57c7b4f5e169fea499e7bff53cc05166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/walking backwards.fbx using Guid(57c7b4f5e169fea499e7bff53cc05166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8db844d657e96a9cd39cfec32b665b') in 0.051537 seconds 
+  Import took 0.064389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.168635 seconds.
+  path: Assets/Character/OtherAnimations/walking to dying.fbx
+  artifactKey: Guid(f1d2037ec570b564c8d2eded4859a84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/walking to dying.fbx using Guid(f1d2037ec570b564c8d2eded4859a84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40130c676c46d8afb68a92adfe898c6f') in 0.074436 seconds 
+  Import took 0.088790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004115 seconds.
+  path: Assets/Character/OtherAnimations/walking to dying.fbx
+  artifactKey: Guid(f1d2037ec570b564c8d2eded4859a84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/walking to dying.fbx using Guid(f1d2037ec570b564c8d2eded4859a84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40130c676c46d8afb68a92adfe898c6f') in 0.071255 seconds 
+  Import took 0.085242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.554664 seconds.
+  path: Assets/Character/OtherAnimations/walking.fbx
+  artifactKey: Guid(ddb2ce0b08c1daa4ab5953fd10867c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OtherAnimations/walking.fbx using Guid(ddb2ce0b08c1daa4ab5953fd10867c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852b5aa78b5c229d7f3263e228c9885b') in 0.053568 seconds 
+  Import took 0.064291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.562238 seconds.
+  path: Assets/Character/JimothyAnimatorController.controller
+  artifactKey: Guid(aa794e4a1549a6d47b05d1f6059e7bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/JimothyAnimatorController.controller using Guid(aa794e4a1549a6d47b05d1f6059e7bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b6cf1dc86f81341056caf9a997fbe8') in 0.051992 seconds 
+  Import took 0.058636 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010254 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.552 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1552ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1323ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (430ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (583ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (446ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.7 MB.
+System memory in use after: 101.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2391.
+Total: 6.238500 ms (FindLiveObjects: 0.233700 ms CreateObjectMapping: 0.088200 ms MarkObjects: 5.887000 ms  DeleteObjects: 0.028100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
