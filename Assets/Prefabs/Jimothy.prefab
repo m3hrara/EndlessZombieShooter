@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &507288564
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 507288565}
+  m_Layer: 0
+  m_Name: GripIKSocket
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &507288565
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507288564}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 654360583287288633}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2076406123
 GameObject:
   m_ObjectHideFlags: 0
@@ -98,6 +128,7 @@ Transform:
   - {fileID: 2229062024588344663}
   - {fileID: 6177959399604407777}
   - {fileID: 144939186307727192}
+  - {fileID: 507288565}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -179,8 +210,8 @@ MonoBehaviour:
   walkSpeed: 5
   runSpeed: 10
   jumpForce: 5
-  followTarget: {fileID: 0}
-  aimSensitivity: 0.2
+  followTarget: {fileID: 364486275695805313}
+  aimSensitivity: 0.05
 --- !u!114 &1053411333093348560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -226,8 +257,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7871a7ca428bd947b9e41d9911ce8e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponToSpawn: {fileID: 1900586067242068, guid: ad49a19d2c4adc94b838606a5d459f85, type: 3}
+  weaponToSpawn: {fileID: 515882755911344043, guid: d8ae8fa8c6620b74099f49422d348e9f, type: 3}
+  playerController: {fileID: 0}
   weaponsSocketLocation: {fileID: 2076406123}
+  gripIKSocketLocation: {fileID: 0}
 --- !u!1 &364486275695805313
 GameObject:
   m_ObjectHideFlags: 0
