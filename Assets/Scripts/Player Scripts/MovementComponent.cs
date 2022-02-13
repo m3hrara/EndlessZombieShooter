@@ -32,6 +32,8 @@ public class MovementComponent : MonoBehaviour
     public readonly int movementYHash = Animator.StringToHash("MovementY");
     public readonly int isJumpingHash = Animator.StringToHash("IsJumping");
     public readonly int isRunningHash = Animator.StringToHash("IsRunning");
+    public readonly int isFiringHash = Animator.StringToHash("IsFiring");
+    public readonly int isReloadingHash = Animator.StringToHash("IsReloading");
 
     private void Awake()
     {
