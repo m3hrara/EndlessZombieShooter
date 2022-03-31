@@ -1678,6 +1678,7 @@ GameObject:
   - component: {fileID: 5531667321788661628}
   - component: {fileID: 7276619983366432522}
   - component: {fileID: 1252386587}
+  - component: {fileID: 7669681452707581515}
   m_Layer: 0
   m_Name: Zombie1
   m_TagString: Untagged
@@ -1727,7 +1728,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 2ef8e6599b7f9934e8ff0d64c5325a1f, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
@@ -1798,6 +1799,20 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &7669681452707581515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4493914613880827488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a10ff07a38f66d4ead1e44b342918ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 150
+  maxHealth: 150
 --- !u!1 &4710940672626480558
 GameObject:
   m_ObjectHideFlags: 0

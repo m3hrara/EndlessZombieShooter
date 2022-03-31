@@ -11,12 +11,15 @@ public class ZombieComponent : MonoBehaviour
     public StateMachine stateMachine;
     public GameObject followTarget;
 
+    private void Start()
+    {
+        Initialize(followTarget);
+    }
     private void Awake()
     {
         zombieAnimator = GetComponent<Animator>();
         zombieNavmeshAgent = GetComponent<NavMeshAgent>();
         stateMachine = GetComponent<StateMachine>();
-        Initialize(followTarget);
     }
 
     public void Initialize(GameObject _followTarget)
