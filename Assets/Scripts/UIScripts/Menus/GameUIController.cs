@@ -17,13 +17,13 @@ public class GameUIController : MonoBehaviour
         EnableGameMenu();
     }
 
-    public void EnablePauseMenu()
-    {
-        if (ActiveWidget) ActiveWidget.DisableWidget();
-       
-        //ActiveWidget = PauseCanvas;
-        ActiveWidget.EnableWidget();
-    }
+    //public void EnablePauseMenu()
+    //{
+    //    if (ActiveWidget) ActiveWidget.DisableWidget();
+
+    //    //ActiveWidget = PauseCanvas;
+    //    ActiveWidget.EnableWidget();
+    //}
 
     public void EnableGameMenu()
     {
@@ -42,7 +42,7 @@ public class GameUIController : MonoBehaviour
     }
 
     public void DisableAllMenus()
-    {
+    { 
         GameCanvas.DisableWidget();
         //PauseCanvas.DisableWidget();
         InventoryCanvas.DisableWidget();

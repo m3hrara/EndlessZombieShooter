@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
@@ -9,4 +10,18 @@ public class PlayerController : MonoBehaviour
     public bool isJumping;
     public bool isRunning;
     public bool isAiming;
+    public bool isInventoryOn = false;
+    public InventoryComponent inventory;
+    public GameUIController gameUIController;
+
+    public void OnInventory(InputValue value)
+    {
+        isInventoryOn = !isInventoryOn;
+        if (isInventoryOn)
+        {
+            gameUIController.EnableGameMenu();
+        }
+        else
+        gameUIController.EnableInventoryMenu();
+    }
 }
