@@ -44,10 +44,14 @@ public class ItemPickupComponent : MonoBehaviour
         {
             playerInventory.AddItem(ItemInstance, amount);
         }
-        if(ItemInstance.itemCategory == ItemCategory.Weapon)
-        {
-            other.GetComponentInChildren<WeaponHolder>().equippedWeapon.weaponStats.totalBullets += pickupItem.amountValue;
-        }
+            if (ItemInstance.itemCategory == ItemCategory.Weapon)
+            {
+                WeaponHolder playerWeapon = other.GetComponent<WeaponHolder>();
+                if (playerWeapon.equippedWeapon != null)
+                {
+                    playerWeapon.equippedWeapon.weaponStats.totalBullets += pickupItem.amountValue;
+                }
+            }
         Destroy(gameObject);
     }
 }
