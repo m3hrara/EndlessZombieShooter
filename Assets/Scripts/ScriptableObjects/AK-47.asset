@@ -17,7 +17,7 @@ MonoBehaviour:
   itemPrefab: {fileID: 515882755911344043, guid: d8ae8fa8c6620b74099f49422d348e9f, type: 3}
   stackable: 0
   maxSize: 1
-  amountValue: 1
+  amountValue: 30
   weaponStats:
     weapontype: 2
     weaponName: AK-47

@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+    public HealthComponent healthComponent;
     public bool isFiring;
     public bool isReloading;
     public bool isJumping;
@@ -30,6 +31,14 @@ public class PlayerController : MonoBehaviour
         if (gameUIController == null)
         {
             gameUIController = GetComponent<GameUIController>();
+        }
+        if (healthComponent == null)
+        {
+            healthComponent = GetComponent<HealthComponent>();
+        }
+        if (gameUIController == null)
+        {
+            gameUIController = FindObjectOfType<GameUIController>();
         }
         if (weaponHolder == null)
         {

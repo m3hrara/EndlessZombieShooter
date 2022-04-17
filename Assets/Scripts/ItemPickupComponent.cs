@@ -40,18 +40,27 @@ public class ItemPickupComponent : MonoBehaviour
     {
         if(!other.CompareTag("Player"))return;
         InventoryComponent playerInventory = other.GetComponent<InventoryComponent>();
-        if(playerInventory)
+        WeaponHolder weaponHolder = other.GetComponent<WeaponHolder>();
+
+        if (playerInventory)
         {
             playerInventory.AddItem(ItemInstance, amount);
         }
-            if (ItemInstance.itemCategory == ItemCategory.Weapon)
+        if (ItemInstance.itemCategory == ItemCategory.Weapon)
+        {
+            WeaponComponent tempWeaponData = ItemInstance.itemPrefab.GetComponent<WeaponComponent>();
+            if (weaponHolder.WeaponAmmoData.ContainsKey(tempWeaponData.weaponStats.weapontype))
             {
-                WeaponHolder playerWeapon = other.GetComponent<WeaponHolder>();
-                if (playerWeapon.equippedWeapon != null)
+                WeaponStats tempWeaponStats = weaponHolder.WeaponAmmoData[tempWeaponData.weaponStats.weapontype];
+                tempWeaponStats.totalBullets += ItemInstance.amountValue;
+
+                other.GetComponentInChildren<WeaponHolder>().WeaponAmmoData[tempWeaponData.weaponStats.weapontype] = tempWeaponStats;
+                if (weaponHolder.equippedWeapon != null)
                 {
-                    playerWeapon.equippedWeapon.weaponStats.totalBullets += pickupItem.amountValue;
+                    weaponHolder.equippedWeapon.weaponStats = weaponHolder.WeaponAmmoData[tempWeaponStats.weapontype];
                 }
             }
+        }
         Destroy(gameObject);
     }
 }

@@ -11,4 +11,9 @@ public class PlayerHealthComponent : HealthComponent
         PlayerEvents.Invoke_OnHealthInitialized(this);
     }
 
+    public override void Destroy()
+    {
+        //base.Destroy();
+    }
+
 }

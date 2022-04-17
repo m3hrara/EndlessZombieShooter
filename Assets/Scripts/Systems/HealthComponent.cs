@@ -22,6 +22,13 @@ public class HealthComponent : MonoBehaviour, IDamageable
     {
         Destroy(gameObject);
     }
+    public virtual void HealDamage(int value)
+    {
+        if (currentHealth < maxHealth)
+        {
+            currentHealth = Mathf.Clamp(currentHealth + value, 0, maxHealth);
+        }
+    }
 
     public virtual void TakeDamage(float damage)
     {

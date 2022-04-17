@@ -27,12 +27,14 @@ public class WeaponHolder : MonoBehaviour
     // Start is called before the first frame update
     public readonly int isFiringHash = Animator.StringToHash("IsFiring");
     public readonly int isReloadingHash = Animator.StringToHash("IsReloading");
-
+    public Dictionary<WeaponType, WeaponStats> WeaponAmmoData;
     void Start()
     {
         playerController = GetComponent<PlayerController>();
         animator = GetComponent<Animator>();
+        WeaponAmmoData = new Dictionary<WeaponType, WeaponStats>();
         playerController.inventory.AddItem(startingWeaponScriptable, 1);
+        WeaponAmmoData.Add(startingWeaponScriptable.weaponStats.weapontype, startingWeaponScriptable.weaponStats);
         //EquipWeapon(startingWeaponScriptable);
         //spawnedWeapon = Instantiate(weaponToSpawn, weaponsSocketLocation.transform.position, weaponsSocketLocation.transform.rotation, weaponsSocketLocation.transform);
         //startingWeaponScriptable.UseItem(playerController);
@@ -107,7 +109,7 @@ public class WeaponHolder : MonoBehaviour
         if (equippedWeapon.weaponStats.totalBullets <= 0) return;
         animator.SetBool(isReloadingHash, true);
         equippedWeapon.StartReloading();
-
+        WeaponAmmoData[equippedWeapon.weaponStats.weapontype] = equippedWeapon.weaponStats;
         InvokeRepeating(nameof(StopReloading), 0, 0.1f);
 
     }
@@ -130,6 +132,12 @@ public class WeaponHolder : MonoBehaviour
         if (!equippedWeapon) return;
 
         equippedWeapon.Initialize(this, weaponScriptable);
+
+        if (WeaponAmmoData.ContainsKey(equippedWeapon.weaponStats.weapontype))
+        {
+            equippedWeapon.weaponStats = WeaponAmmoData[equippedWeapon.weaponStats.weapontype];
+        }
+
         PlayerEvents.InvokeOnWeaponEquipped(equippedWeapon);
         gripIKSocketLocation = equippedWeapon.gripLocation;
         //ammoUI.OnWeaponEquipped(equippedWeapon);
@@ -139,6 +147,10 @@ public class WeaponHolder : MonoBehaviour
         if(!equippedWeapon)
         {
             return;
+        }
+        if (WeaponAmmoData.ContainsKey(equippedWeapon.weaponStats.weapontype))
+        {
+            WeaponAmmoData[equippedWeapon.weaponStats.weapontype] = equippedWeapon.weaponStats;
         }
         Destroy(equippedWeapon.gameObject);
         equippedWeapon = null;
