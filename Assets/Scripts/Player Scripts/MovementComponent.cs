@@ -48,41 +48,45 @@ public class MovementComponent : MonoBehaviour
 
     void Update()
     {
-        //aiming/looking
-        followTarget.transform.rotation *= Quaternion.AngleAxis(lookInput.x * aimSensitivity, Vector3.up);
-        followTarget.transform.rotation *= Quaternion.AngleAxis(lookInput.y * aimSensitivity, Vector3.left);
-
-        var angles = followTarget.transform.localEulerAngles;
-        angles.z = 0;
-
-        var angle = followTarget.transform.localEulerAngles.x;
-
-        if (angle > 180 && angle < 300)
+        if (!playerController.isPaused)
         {
-            angles.x = 300;
+            //aiming/looking
+            followTarget.transform.rotation *= Quaternion.AngleAxis(lookInput.x * aimSensitivity, Vector3.up);
+            followTarget.transform.rotation *= Quaternion.AngleAxis(lookInput.y * aimSensitivity, Vector3.left);
+
+            var angles = followTarget.transform.localEulerAngles;
+            angles.z = 0;
+
+            var angle = followTarget.transform.localEulerAngles.x;
+
+            if (angle > 180 && angle < 300)
+            {
+                angles.x = 300;
+            }
+            else if (angle < 180 && angle > 70)
+            {
+                angles.x = 70;
+            }
+
+            followTarget.transform.localEulerAngles = angles;
+
+            //rotate player rotation based on look
+            transform.rotation = Quaternion.Euler(0, followTarget.transform.rotation.eulerAngles.y, 0);
+
+            followTarget.transform.localEulerAngles = new Vector3(angles.x, 0, 0);
+
+            //movement
+            if (playerController.isJumping) return;
+            if (!(inputVector.magnitude > 0)) moveDirection = Vector3.zero;
+
+            moveDirection = transform.forward * inputVector.y + transform.right * inputVector.x;
+            float currentSpeed = playerController.isRunning ? runSpeed : walkSpeed;
+
+            Vector3 movementDirection = moveDirection * (currentSpeed * Time.deltaTime);
+
+            transform.position += movementDirection;
         }
-        else if (angle < 180 && angle > 70)
-        {
-            angles.x = 70;
-        }
-
-        followTarget.transform.localEulerAngles = angles;
-
-        //rotate player rotation based on look
-        transform.rotation = Quaternion.Euler(0, followTarget.transform.rotation.eulerAngles.y, 0);
-
-        followTarget.transform.localEulerAngles = new Vector3(angles.x, 0, 0);
-
-        //movement
-        if (playerController.isJumping) return;
-        if (!(inputVector.magnitude > 0)) moveDirection = Vector3.zero;
-
-        moveDirection = transform.forward * inputVector.y + transform.right * inputVector.x;
-        float currentSpeed = playerController.isRunning ? runSpeed : walkSpeed;
-
-        Vector3 movementDirection = moveDirection * (currentSpeed * Time.deltaTime);
-
-        transform.position += movementDirection;
+        
     }
 
     public void OnMovement(InputValue value)

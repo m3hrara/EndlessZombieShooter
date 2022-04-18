@@ -15,11 +15,40 @@ public class PlayerController : MonoBehaviour
     public InventoryComponent inventory;
     public GameUIController gameUIController;
     public WeaponHolder weaponHolder;
+    public GameObject pausePanel;
+    public bool isPaused = false;
     public void OnInventory(InputValue value)
     {
         isInventoryOn = !isInventoryOn;
         gameUIController.ToggleInventory(isInventoryOn);
         AppEvents.InvokeMouseCursorEnable(isInventoryOn);
+
+    }
+    public void OnPause(InputValue value)
+    {
+        if (isPaused)
+        {
+            //unpause
+            Cursor.visible = false;
+            pausePanel.SetActive(false);
+            Time.timeScale = 1f;
+        }
+        else
+        {
+            //pause
+            Cursor.visible = true;
+            pausePanel.SetActive(true);
+            Time.timeScale = 0f;
+        }
+        isPaused = !isPaused;
+
+    }
+    public void onResumePressed()
+    {
+        Cursor.visible = false;
+        pausePanel.SetActive(false);
+        Time.timeScale = 1f;
+        isPaused = !isPaused;
 
     }
     private void Awake()
