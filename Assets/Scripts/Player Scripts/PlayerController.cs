@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     public HealthComponent healthComponent;
+    public MovementComponent movementComponent;
     public bool isFiring;
     public bool isReloading;
     public bool isJumping;
@@ -72,6 +73,10 @@ public class PlayerController : MonoBehaviour
         if (weaponHolder == null)
         {
             weaponHolder = GetComponent<WeaponHolder>();
+        }
+        if (movementComponent == null)
+        {
+            movementComponent = GetComponent<MovementComponent>();
         }
     }
 }

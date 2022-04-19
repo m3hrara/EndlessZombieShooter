@@ -6,13 +6,12 @@ using UnityEngine.InputSystem;
 public class MovementComponent : MonoBehaviour
 {
 
-    [SerializeField]
-    float walkSpeed = 5;
-    [SerializeField]
-    float runSpeed = 10;
-    [SerializeField]
-    float jumpForce = 5;
+    public float walkSpeed = 5;
+    public float runSpeed = 10;
+    public float jumpForce = 5;
+    public float boostTimer = 5f;
 
+    public bool isUsingBoost = false;
     //components
     private PlayerController playerController;
     Rigidbody rigidbody;
@@ -85,6 +84,17 @@ public class MovementComponent : MonoBehaviour
             Vector3 movementDirection = moveDirection * (currentSpeed * Time.deltaTime);
 
             transform.position += movementDirection;
+
+            if (isUsingBoost)
+            {
+                boostTimer -= Time.deltaTime;
+                if (boostTimer <= 0)
+                {
+                    walkSpeed = 5;
+                    runSpeed = 10;
+                    isUsingBoost = false;
+                }
+            }
         }
         
     }
